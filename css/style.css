@@ -1,8 +1,8 @@
 :root{
-  --accent-color: #8672FF;
-  --base-color: white;
-  --text-color: #2E2B41;
-  --input-color: #F3F0FF;                                                                                                                                                                                             
+  --accent-color: #97abe6;
+  --base-color: rgb(233, 170, 216);
+  --text-color: #e4a45b;
+  --input-color: #e3e98d;                                                                                                                                                                                             
 }
 
 *{
@@ -19,7 +19,7 @@ html{
 
 body{
   min-height: 100vh;
-  background-image: url(../img/fundo.jpn);
+  background-image: url(../img/business.png);
   background-size: cover;
   background-position: right;
   overflow: hidden;
@@ -27,7 +27,7 @@ body{
 
 .wrapper{
   box-sizing: border-box;
-  background-color: var(--base-color);
+  background-color: rgb(0,0,0,0,0,0.0);
   height: 100vh;
   width: max(40%, 600px);
   padding: 10px;
